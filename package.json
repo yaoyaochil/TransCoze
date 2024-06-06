@@ -1,5 +1,5 @@
 {
-  "name": "electron-vite-react",
+  "name": "TranslationAIDesktop",
   "version": "2.2.0",
   "main": "dist-electron/main/index.js",
   "description": "Electron Vite React boilerplate.",
@@ -20,12 +20,21 @@
     "e2e": "playwright test"
   },
   "dependencies": {
-    "electron-updater": "^6.1.8"
+    "@alex_xu/react-loading": "^1.0.4",
+    "electron-updater": "^6.1.8",
+    "i18next": "^23.11.5",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.6.6",
+    "react-i18next": "^14.1.2",
+    "react-markdown": "^9.0.1",
+    "react-typist": "^2.0.5",
+    "remark-breaks": "^4.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.42.1",
     "@types/react": "^18.2.64",
     "@types/react-dom": "^18.2.21",
+    "@types/react-typist": "^2.0.6",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.18",
     "electron": "^29.1.1",
